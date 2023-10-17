@@ -12,7 +12,7 @@ import os, shutil
 # In[2]:
 
 
-#Next we set the path varaible equal to teh path of the raw data
+#Next we set the path variable equal to the path of the raw data
 
 path = r'C:\Users\hands\OneDrive\Documents\Python Project #33/'
 
@@ -28,7 +28,7 @@ file_name = os.listdir(path)
 # In[4]:
 
 
-#Next we create loop taht will create files for respective folders in folder_name
+#Next we create a loop that will create files for respective folders in folder_name
 
 folder_names = ['csv files', 'image files', 'text files']
 
@@ -41,7 +41,7 @@ for loop in range(0,3):
 # In[5]:
 
 
-#Next we create code taht will move files:
+#Next we create code that will move files:
 
 for file in file_name:
     if ".xlsx" in file and not os.path.exists(path + "csv files/" + file):
@@ -53,52 +53,4 @@ for file in file_name:
     else:
         print("There were files in this path that were not moved!")
     
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
 
