@@ -1,7 +1,4 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[1]:
+# Licensed under the MIT License. See LICENSE file for details.
 
 
 #First we import BeautifulSoup to prettify data
