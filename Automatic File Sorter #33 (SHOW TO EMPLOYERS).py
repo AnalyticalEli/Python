@@ -1,8 +1,4 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[1]:
-
+# Licensed under the GPL License. See LICENSE file for details.
 
 #First we import os shutil
 
